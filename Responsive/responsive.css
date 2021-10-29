@@ -1,0 +1,64 @@
+@media (max-width: 991px) {
+
+  header{
+    position: relative;
+  }
+  .menu ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color:  #57606f;
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    display: none;
+    
+  }
+  .menu ul li a{
+    color: #fff;
+    transition: .5s;
+  }
+  .menu ul li a:hover{
+    color: red;
+  }
+  .menu ul li a::after{
+    margin-left: 0;
+  }
+  
+  .menu-icon{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .menu-icon i{
+    color: #fff;
+    font-size: 40px;
+    display: block;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  .cross-icon{
+    display: block;
+  }
+  .cross-icon i{
+    color: #fff;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-right: 0px;
+    /* display: none; */
+  }
+  
+/* contact section */
+
+.form{
+  width: 90%;
+}
+.second-cross-icon i{
+  right: 10%;
+  font-size: 20px;
+}
+
+
+}
